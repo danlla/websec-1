@@ -15,7 +15,7 @@ function buttonClicked() {
             res = parseFloat(lhs) * parseFloat(rhs);
             break;
         case '/':
-            if((rhs-0.0)<Number.EPSILON)
+            if(Math.abs(rhs-0.0)<Number.EPSILON)
             {
                 document.getElementById('results').value += 'right operator is zero\n';
                 document.getElementById('rhs').style.background = 'red';
