@@ -1,20 +1,23 @@
 
-.mainDev {
-    margin: 20px 20px 20px 20px;
-    border-width: 1px 1px 1px 1px;
+.mainDiv {
+    margin: 20px;
+    border-width: 1px;
     border-color: red;
     background-color: lightcyan;
     border-radius: 10px;
+    text-align: center;
 }
 
 .input {
-    margin: 10px 10px 10px 10px;
-    width: 70px;
+    margin: 20px auto 20px auto;
+    width: 100px;
     background-color: lightcyan;
-    border-width: 1px 1px 1px 1px;
+    border-width: 1px;
     border-style: dashed;
     border-color: red;
     border-radius: 10px;
+    outline: none;
+    height: 20px;
 }
 
 #select{
@@ -25,14 +28,16 @@
     color:red;
 }
 
-textarea {
+#results {
     color: red;
     background-color: lightcyan;
-    border-width: 1px 1px 1px 1px;
+    border-width: 1px;
     margin: 20px auto 20px auto;
     border-style: dashed;
     border-color: red;
     border-radius: 10px;
+    outline: none;
+    height: 100px;
 }
 
 .row {
@@ -43,8 +48,9 @@ textarea {
     color: red;
     margin: 20px auto 20px auto;
     background-color: lightcyan;
-    border-width: 1px 1px 1px 1px;
+    border-width: 1px;
     border-style: dashed;
     border-color: red;
     border-radius: 10px;
+    outline: none;
 }
