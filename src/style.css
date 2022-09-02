@@ -50,3 +50,15 @@
     border-radius: 10px;
     outline: none;
 }
+
+.button:disabled{
+    color: red;
+    margin: 20px auto 20px auto;
+    background-color: lightcyan;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: red;
+    border-radius: 10px;
+    opacity: 20%;
+    outline: none;
+}
