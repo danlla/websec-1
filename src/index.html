@@ -7,7 +7,7 @@
     <body>
         <div class="mainDiv">
             <div class="row">
-                <input type="text" id="lhs" class="input">
+                <input type="text" id="lhs" class="input" onchange="inputChanged();">
 
                 <select id="select" class = "input">
                     <option>+</option>
@@ -16,7 +16,7 @@
                     <option>/</option>
                 </select>
 
-                <input type="text" id="rhs" class="input">
+                <input type="text" id="rhs" class="input" onchange="inputChanged();">
             </div>
             <input type="button" value="compute" onclick="buttonClicked();" class="button row">
             <textarea type="text" id="results" readonly="true" class="row"></textarea>
